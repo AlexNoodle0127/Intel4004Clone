@@ -67,6 +67,12 @@ begin
                 reg_sel         <= opcode(3 downto 0);
                 reg_write       <= '1';
                 pc_inc          <= '1';
+            when "0101" =>                                               -- this is newly added, this is to support XOR
+                alu_op          <= "0100";
+                alu_enable      <= '1';
+                reg_sel         <= opcode(3 downto 0);
+                reg_write       <= '1';
+                pc_inc          <= '1';
             when "1000" =>                                              -- this is for the JMP. 
                 pc_inc          <= '0';
                 pc_load         <= '1';
