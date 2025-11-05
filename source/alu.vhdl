@@ -10,9 +10,9 @@
 -- =======================================================================================
 --                 INTRODUCING BASIC LIBRARIES WE ARE GOING TO NEED
 -- =======================================================================================
-library IEEE;                                                                              -- # This is the library that we are going to need if we want to successfully create an ALU
-use IEEE.std_logic_1164.all;                                                               -- # this is the heart and soul of the alu, this introduces standard logic with two modules (std_logic) (std_logic_vector)
-use IEEE.numeric_std.all;                                                                  -- # This will make it allow us to use usigned and signed characters
+library ieee;                                                                              -- # This is the library that we are going to need if we want to successfully create an ALU
+use ieee.std_logic_1164.all;                                                               -- # this is the heart and soul of the alu, this introduces standard logic with two modules (std_logic) (std_logic_vector)
+use ieee.numeric_std.all;                                                                  -- # This will make it allow us to use usigned and signed characters
 -- ========================================================================================
 --                              ARITHMETIC LOGIC UNIT ENTITY
 -- ========================================================================================
