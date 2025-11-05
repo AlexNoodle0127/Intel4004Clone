@@ -53,4 +53,4 @@ begin
         end if;
     end process;
     pc_out <= pc;                                                   -- outputs the final results of pc to the output
-end Intel_4004;
+end Intel4004;
