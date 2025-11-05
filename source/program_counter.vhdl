@@ -38,7 +38,7 @@ end ProgramCounter;
 -- =================================================================
 --    DEFINING PROGRAMCOUNTER INTO THE INTEL 4004 ARCHITECTURE
 -- =================================================================
-architecture Intel_4004 of ProgramCounter is
+architecture Intel4004 of ProgramCounter is
     signal pc : std_logic_vector(11 downto 0);                      -- We need this if we actually want to count the data
 begin 
     process(clk)                                                    -- defines clk as a process
