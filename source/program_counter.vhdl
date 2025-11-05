@@ -19,9 +19,9 @@
 -- ==================================================================
 --                 LIBRARIES AND MODULES IMPORTED
 -- ==================================================================
-library IEEE;                                                        -- This is a must, our code will not work at all without it
-use IEEE.std_logic_1164.all;                                         -- this imports the standard logic from IEEE and allows for "std_logic" and "std_logic_vector" to be accessed
-use IEEE.numeric_std.all;                                            -- this imports numeric_std which allows for unsigned and signed characters
+library ieee;                                                        -- This is a must, our code will not work at all without it
+use ieee.std_logic_1164.all;                                         -- this imports the standard logic from IEEE and allows for "std_logic" and "std_logic_vector" to be accessed
+use ieee.numeric_std.all;                                            -- this imports numeric_std which allows for unsigned and signed characters
 -- ==================================================================
 --                DEFINING PROGRAM COUNTER ENTITY
 -- ==================================================================
